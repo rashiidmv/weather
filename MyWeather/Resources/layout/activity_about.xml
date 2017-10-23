@@ -1,0 +1,107 @@
+﻿<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="MyWeather.MyWeather.AboutActivity"
+    tools:ignore="MergeRootFrame"
+                    android:layout_gravity ="center_horizontal"
+    android:background="#000000" >
+  <LinearLayout
+  android:id="@+id/main_content"
+    android:orientation="vertical"
+  android:layout_width="wrap_content"
+    android:gravity="center_horizontal"
+     android:layout_gravity ="bottom|center_horizontal"
+        android:layout_height="wrap_content"
+        >
+    <LinearLayout
+android:id="@+id/main_content"
+  android:orientation="vertical"
+android:layout_width="wrap_content"
+   android:layout_gravity ="center"
+      android:layout_height="wrap_content"
+        >
+      <ImageView
+    android:id="@+id/photo"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:src="@drawable/icon"/>
+      <TextView
+     
+      android:text="@string/ApplicationName"
+      android:id="@+id/appname_field"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+       android:layout_gravity ="center_horizontal"
+       android:textSize="14dp" />
+      <TextView
+             android:text="@string/version"
+          android:id="@+id/version_field"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+           android:layout_gravity ="center_horizontal"
+           android:textSize="14dp" />
+    </LinearLayout>
+    <LinearLayout
+            android:padding="0.4dp"
+              android:background="#ffffff"
+      android:layout_marginTop="120dp"
+  android:orientation="vertical"
+android:layout_width="wrap_content"
+   android:layout_gravity ="center"
+      android:layout_height="wrap_content"
+        >
+      <TextView
+                   android:gravity="center"
+    android:textAlignment="gravity"
+      android:background="#000000"
+      android:text="Contact Us"
+        android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+       android:layout_gravity ="center_horizontal"
+       android:textSize="14dp" />
+      <LinearLayout
+        android:padding="3dp"
+    android:orientation="horizontal"
+    android:layout_width="wrap_content"
+    android:layout_gravity ="center"
+    android:layout_height="wrap_content"
+     android:background="#000000"
+        >
+        <ImageView
+    android:id="@+id/photo"
+    android:layout_width="46dp"
+    android:layout_height="52dp"
+    android:layout_gravity="center"
+    android:src="@drawable/photo"/>
+        <LinearLayout
+          android:padding="3dp"
+ android:orientation="vertical"
+ android:layout_width="wrap_content"
+ android:layout_gravity ="center"
+ android:layout_height="wrap_content"
+        >
+          <TextView     
+                android:text="Rashid MV"
+                  android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                 android:textSize="14dp" />
+          <TextView     
+      android:text="rashiidmv@gmail.com"
+        android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+
+       android:textSize="14dp" />
+          <TextView
+      android:text="+91 9620370920"
+        android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+       android:textSize="14dp" />
+        </LinearLayout>
+      </LinearLayout>
+    </LinearLayout>
+  </LinearLayout>
+
+</FrameLayout>

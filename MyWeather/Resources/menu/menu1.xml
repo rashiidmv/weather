@@ -1,0 +1,30 @@
+﻿<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto">
+  <item
+      android:id="@+id/about"
+      android:orderInCategory="1"
+     android:showAsAction="always"
+        android:title="@string/about"/>
+  <item
+        android:id="@+id/change_city1"
+        android:orderInCategory="1"
+       android:showAsAction="never"/>
+  <item
+      android:id="@+id/change_city2"
+      android:orderInCategory="2"
+      android:showAsAction="never"/>
+  <item
+      android:id="@+id/change_city3"
+      android:orderInCategory="3"
+      android:showAsAction="never"/>
+  <item
+      android:id="@+id/change_city4"
+      android:orderInCategory="4"
+      android:showAsAction="never"/>
+  <item
+    android:id="@+id/help"
+    android:orderInCategory="5"
+    android:title="@string/help"
+    android:showAsAction="never"/>
+</menu>
+
