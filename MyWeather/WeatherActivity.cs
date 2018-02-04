@@ -155,6 +155,7 @@ namespace MyWeather {
         private void FahrenheitSwitch_CheckedChange(object sender, CompoundButton.CheckedChangeEventArgs e) {
             TextView current_temperature_field = ((TextView)FindViewById(Resource.Id.current_temperature_field));
             TextView temp_field1 = ((TextView)FindViewById(Resource.Id.temp_field1));
+
             TextView temp_field2 = ((TextView)FindViewById(Resource.Id.temp_field2));
             TextView temp_field3 = ((TextView)FindViewById(Resource.Id.temp_field3));
             TextView temp_field4 = ((TextView)FindViewById(Resource.Id.temp_field4));
